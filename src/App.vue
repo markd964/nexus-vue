@@ -72,7 +72,8 @@ export default {
         { to: '/', label: 'Home', num: '01' },
         { to: '/work', label: 'Work', num: '02' },
         { to: '/services', label: 'Services', num: '03' },
-        { to: '/contact', label: 'Contact', num: '04' },
+        { to: '/crypto', label: 'Wallet', num: '04' },
+        { to: '/contact', label: 'Contact', num: '05' },
       ],
     }
   },

@@ -4,10 +4,10 @@
       {
         "match": "\\.(vue|js|css|json)$",
         "isAsync": true,
-        "cmd": "cd ${workspaceFolder} && git add . && git commit -m 'auto: save ${fileBasename}' && git push origin main"
+        "cmd": "cd ${workspaceFolder} && git add . && git commit -m \"auto: save ${fileBasename}\" && git push origin main"
       }
     ]
   },
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false
 }

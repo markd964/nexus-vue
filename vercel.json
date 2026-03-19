@@ -1,11 +1,8 @@
 {
-  "buildCommand": "chmod +x ./node_modules/.bin/vue-cli-service && ./node_modules/.bin/vue-cli-service build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vue",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
