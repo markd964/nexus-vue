@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "vercel-build": "chmod +x ./node_modules/.bin/vue-cli-service && ./node_modules/.bin/vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
